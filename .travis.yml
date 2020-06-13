@@ -23,4 +23,5 @@ install:
 
 script:
 - sudo vagrant up --provider=libvirt
-- sudo vagrant ssh -c "echo 'hello world!'"
+- sudo vagrant ssh -c "echo hello"
+- sudo vagrant ssh -c "ls"
